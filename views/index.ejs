@@ -1,0 +1,59 @@
+<!--
+Who is the Smarter Programmer
+WEB405 Project 3
+Author: Lami Kabir
+Date: April 13, 2017
+-->
+    <html>
+        <header>
+        <title>Programmers Quiz</title>
+            <link rel="stylesheet" type="text/css" href="styles.css">
+        </header>
+        <body>
+            
+                <form action="scores" method="post">
+                    <h1>Programmers Quiz</h1>
+                    <a href="instructions.html">Instructions</a>
+                    <h3>Question 1</h3>
+                    <p>In socket.io is it possible to create your very own events? true/false</p>
+                    <input id="input1" type="text">
+
+                    <h3>Question 2</h3>
+                    <p>Is there a module called mongodb? true/false</p>
+                    <input id="input2" type="text"><br><br>
+                    
+                    <h3>Question 3</h3>
+                    <p>Is there a framework called Ionic where you can make android apps and ios apps with javascript? yes/no</p>
+                    <input id="input3" type="text"><br><br>
+                    
+                    <h3>Question 4</h3>
+                    <p>Will javascript have classes soon? true/false</p>
+                    <input id="input4" type="text"><br><br>
+                    
+                    <h3>Question 5</h3>
+                    <p>Is there a framework called nodebots.io to program robots using node.js/javascript? yes/no</p>
+                    <input id="input5" type="text"><br><br>
+                    <button type="button">GO!</button>
+                </form>
+                <h1 id="highScores">High Scores</h1>
+                <table>
+                  <tr>
+                    <th>Name</th>
+                    <th>Score</th> 
+                    <th>Rank</th>
+                  </tr>
+                   <% for(var i=0; i<players.length; i++) {%>
+                  <tr>
+                    <td><%= players[i].name %></td>
+                    <td><%= players[i].score %></td> 
+                    <td><%= players[i].rank %></td>
+                  </tr>
+                    <% } %>
+                </table>
+            
+            <script src="/socket.io/socket.io.js"></script> <!--This magically means it will be there. It's just how socket.io works. -->
+            <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+            <script src="client.js"></script> <!-- Most improtant part is to connect it to the client javascript script -->
+        </body>
+    </html>

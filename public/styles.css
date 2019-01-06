@@ -1,0 +1,69 @@
+/*
+Who is the Smarter Programmer
+WEB405 Project 3
+Author: Lami Kabir
+Date: April 13, 2017
+*/
+
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+h1 {
+    text-align:center;
+    color: white;
+}
+
+th {
+    padding: 25px;
+    color: white;
+}
+
+td {
+    padding: 25px;
+    color: white;
+}
+
+a {
+   padding-left: 46%;
+    color: white;
+    transition: 1s;
+}
+
+a:hover{
+    color: green;
+}
+
+p {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.littleText {
+    text-align: center;
+}
+
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    
+}
+
+h3 {
+    color: white;
+}
+
+button {
+    transition: 1s;
+    color: red;
+}
+button:hover {
+    color: green;
+    
+}

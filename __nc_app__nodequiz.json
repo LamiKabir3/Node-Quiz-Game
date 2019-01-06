@@ -1,0 +1,56 @@
+{
+  "package.json": {
+    "mt": "Mon Nov 26 2018 13:45:17 GMT-0500 (Eastern Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\package.json"
+  },
+  "public/background.jpg": {
+    "mt": "Mon Apr 17 2017 17:17:06 GMT-0400 (Eastern Daylight Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\public\\background.jpg"
+  },
+  "public/client.js": {
+    "mt": "Mon Nov 26 2018 01:12:24 GMT-0500 (Eastern Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\public\\client.js"
+  },
+  "public/styles.css": {
+    "mt": "Thu Apr 20 2017 20:58:12 GMT-0400 (Eastern Daylight Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\public\\styles.css"
+  },
+  "server.js": {
+    "mt": "Mon Nov 26 2018 01:20:04 GMT-0500 (Eastern Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\server.js"
+  },
+  "views/38791914-strength-wallpapers.jpg": {
+    "mt": "Sun Apr 23 2017 13:59:28 GMT-0400 (Eastern Daylight Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\views\\38791914-strength-wallpapers.jpg"
+  },
+  "views/index.ejs": {
+    "mt": "Mon Nov 26 2018 00:24:54 GMT-0500 (Eastern Standard Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\views\\index.ejs"
+  },
+  "views/instructions.html": {
+    "mt": "Thu Apr 20 2017 13:27:38 GMT-0400 (Eastern Daylight Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\views\\instructions.html"
+  },
+  "views/strength-wallpapers.html": {
+    "mt": "Sun Apr 23 2017 13:58:12 GMT-0400 (Eastern Daylight Time)",
+    "exists": true,
+    "state": 1,
+    "path": "C:\\Users\\ujust\\Desktop\\NodeProjects\\j3 fixed\\Project 3\\views\\strength-wallpapers.html"
+  }
+}
